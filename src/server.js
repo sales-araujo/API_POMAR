@@ -10,6 +10,10 @@ const messageError = require('./public/ErrorMessage.json')
 
 const app = express()
 
+const path = require("path");
+const Router = require('./modules/router/router');
+const router = new Router(path.join(__dirname,'routes'));
+
 app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({extends: true}))
 app.use(express.json())
