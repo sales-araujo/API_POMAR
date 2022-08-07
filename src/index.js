@@ -24,9 +24,9 @@ app.get("/api/fruit/all", (req, res) => {
 })
 
 app.get("/api/fruit/:id", getFruitById, (req, res) => {
-  const { fruitData } = req
+  const { fruitDataId } = req
   
-  return res.json(fruitData)
+  return res.json(fruitDataId)
 })
 
 app.listen(port, () => {

@@ -4,17 +4,19 @@ const messageError = require('../ErrorMessage.json')
 module.exports = {
   getFruitById: (req, res, next) => {
     const { id } = req.params
+    console.log(id)
     
-    const fruitData = productsPomar.find(fruit => {
+    const fruitDataId = productsPomar.find(fruit => {
       return fruit.id === parseInt(id)
     })
 
-    req.fruitData = fruitData
+    req.fruitDataId = fruitDataId
     
-    if(!fruitData){
+    if(!fruitDataId){
       return res.status(400).json(messageError)
     }
 
     return next();
   }
 }
+
