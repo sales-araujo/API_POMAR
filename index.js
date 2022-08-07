@@ -3,6 +3,8 @@ const morgan  = require('morgan')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 
+const port = process.env.PORT || 21262
+
 const productsPomar = require('./public/API_PRODUCTS.json')
 const messageError = require('./public/ErrorMessage.json')
 
@@ -22,5 +24,5 @@ app.get('/api/fruit/all', (req, res) => {
 })
 
 app.listen(21262, () => {
-  console.log(`Express started at http://localhost:21262`)
+  console.log(`Express started at http://localhost:${port}`)
 })
