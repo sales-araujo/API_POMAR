@@ -25,6 +25,7 @@ app.get("/api/fruit/all", (req, res) => {
 
 app.get("/api/fruit/:id", getFruitById, (req, res) => {
   const { fruitData } = req
+  
   return res.json(fruitData)
 })
 
