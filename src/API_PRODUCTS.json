@@ -1,6 +1,6 @@
 [
   {
-    "id": 10,
+    "id": 1,
     "fruit": "Abacaxi",
     "image": "https://user-images.githubusercontent.com/101731656/183268923-f65941d2-6637-443e-ab18-12a111aff090.png",
     "genus": "Ananas",
@@ -13,7 +13,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 2,
     "fruit": "Maçã",
     "image": "https://user-images.githubusercontent.com/101731656/183269020-b89ff3f2-4034-4347-bd74-95aca39a9f44.png",
     "genus": "Malus",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 3,
     "fruit": "Damasco",
     "image": "https://user-images.githubusercontent.com/101731656/183269041-b764f4d9-137e-4738-86a0-47f929d6563f.png",
     "genus": "Prunus",
@@ -39,7 +39,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 4,
     "fruit": "Banana",
     "image": "https://user-images.githubusercontent.com/101731656/183269091-498fbe40-b092-47d3-a1cd-4d6abdc3c8f2.png",
     "genus": "Musa",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "id": 12,
+    "id": 5,
     "fruit": "Amora",
     "image": "https://user-images.githubusercontent.com/101731656/183269122-7543ebb7-c094-4349-b07f-58d1b1b0db20.png",
     "genus": "Rubus",
@@ -65,7 +65,7 @@
     }
   },
   {
-    "id": 14,
+    "id": 6,
     "fruit": "Cereja",
     "image": "https://user-images.githubusercontent.com/101731656/183269153-d3c97936-cf70-4eeb-8f2d-d9937bd7e709.png",
     "genus": "Prunus",
@@ -78,7 +78,7 @@
     }
   },
   {
-    "id": 15,
+    "id": 7,
     "fruit": "Mirtilo",
     "image": "https://user-images.githubusercontent.com/101731656/183269177-09b19b08-ecdd-4cac-97a7-73c0cbcab908.png",
     "genus": "Fragaria",
@@ -91,7 +91,7 @@
     }
   },
   {
-    "id": 9,
+    "id": 8,
     "fruit": "Uva",
     "image": "https://user-images.githubusercontent.com/101731656/183269221-9be9c910-6460-4339-8f50-1a83a5f38d6a.png",
     "genus": "Vitis",
@@ -104,7 +104,7 @@
     }
   },
   {
-    "id": 1,
+    "id": 9,
     "fruit": "Maçã verde",
     "image": "https://user-images.githubusercontent.com/101731656/183269241-683d1917-6479-471e-b7ef-cf5cf9d9d64b.png",
     "genus": "Malus",
@@ -117,7 +117,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 10,
     "fruit": "Goiaba",
     "image": "https://user-images.githubusercontent.com/101731656/183269256-2a3e0b50-4549-40a1-a49a-5a5ce6486716.png",
     "genus": "Psidium",
@@ -130,7 +130,7 @@
     }
   },
   {
-    "id": 2,
+    "id": 11,
     "fruit": "Limão",
     "image": "https://user-images.githubusercontent.com/101731656/183269288-c7691897-e769-4373-836a-94ad80e9a0ea.png",
     "genus": "Citrus",
@@ -143,7 +143,7 @@
     }
   },
   {
-    "id": 13,
+    "id": 12,
     "fruit": "Manga",
     "image": "https://user-images.githubusercontent.com/101731656/183269327-d26ded3c-b2ea-41b5-b47d-262f051ad6fd.png",
     "genus": "Mangifera",
@@ -156,7 +156,7 @@
     }
   },
   {
-    "id": 11,
+    "id": 13,
     "fruit": "Laranja",
     "image": "https://user-images.githubusercontent.com/101731656/183269356-aa0c261f-93d4-4dee-885e-522db02b49ab.png",
     "genus": "Citrus",
@@ -169,7 +169,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 14,
     "fruit": "Pera",
     "image": "https://user-images.githubusercontent.com/101731656/183269383-faf860e1-2c16-4636-9450-a1f5af42a79c.png",
     "genus": "Pyrus",
@@ -182,7 +182,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 15,
     "fruit": "Ameixa",
     "image": "https://user-images.githubusercontent.com/101731656/183269412-a85e18cd-9842-4cf5-adfb-e4000b2f7b46.png",
     "genus": "Prunus",

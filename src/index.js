@@ -1,12 +1,15 @@
+require('dotenv/config');
 const express = require('express')
 const morgan  = require('morgan')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 
-const port = process.env.PORT || 21262
+const port = process.env.PORT || 3000
 
 const productsPomar = require('./API_PRODUCTS.json')
 const messageError = require('./ErrorMessage.json')
+
+const { getFruitById } = require('./middleware/middleware')
 
 const app = express()
 
@@ -15,20 +18,15 @@ app.use(bodyParser.urlencoded({extends: true}))
 app.use(express.json())
 app.use(cors())
 
-// const routers = productsPomar.map((route) => {
-//   console.log(route)
-//   route.id
-//   route.fruit
-//   route.genus
-//   route.order
-// })
-
 app.get("/api/fruit/all", (req, res) => {
-  if(res.status(200)){
-    res.json(productsPomar)
-  } else if(res.status(404)){
-    res.json(messageError)
-  }
+  if(!productsPomar) return res.status(400).json(messageError)
+  return res.status(200).json(productsPomar)
+})
+
+app.get("/api/fruit/:id", getFruitById, (req, res) => {
+  const { fruitData } = req
+  
+  return res.json(fruitData)
 })
 
 app.listen(port, () => {
