@@ -1,0 +1,197 @@
+[
+  {
+    "id": 10,
+    "fruit": "Abacaxi",
+    "image": "https://user-images.githubusercontent.com/101731656/183268923-f65941d2-6637-443e-ab18-12a111aff090.png",
+    "genus": "Ananas",
+    "order": "Poales",
+    "nutritions": {
+      "carbohydrates": 12.6,
+      "protein": 0.5,
+      "fiber": 1.4,
+      "calories": 48
+    }
+  },
+  {
+    "id": 7,
+    "fruit": "Maçã",
+    "image": "https://user-images.githubusercontent.com/101731656/183269020-b89ff3f2-4034-4347-bd74-95aca39a9f44.png",
+    "genus": "Malus",
+    "order": "Rosales",
+    "nutritions": {
+      "carbohydrates": 11.4,
+      "protein": 0.3,
+      "sugar": 10.3,
+      "calories": 52
+    }
+  },
+  {
+    "id": 4,
+    "fruit": "Damasco",
+    "image": "https://user-images.githubusercontent.com/101731656/183269041-b764f4d9-137e-4738-86a0-47f929d6563f.png",
+    "genus": "Prunus",
+    "order": "Rosales",
+    "nutritions": {
+      "carbohydrates": 3.9,
+      "protein": 0.5,
+      "sugar": 3.2,
+      "calories": 15
+    }
+  },
+  {
+    "id": 8,
+    "fruit": "Banana",
+    "image": "https://user-images.githubusercontent.com/101731656/183269091-498fbe40-b092-47d3-a1cd-4d6abdc3c8f2.png",
+    "genus": "Musa",
+    "order": "Zingiberales",
+    "nutritions": {
+      "carbohydrates": 22,
+      "protein": 1,
+      "sugar": 17.2,
+      "calories": 96
+    }
+  },
+  {
+    "id": 12,
+    "fruit": "Amora",
+    "image": "https://user-images.githubusercontent.com/101731656/183269122-7543ebb7-c094-4349-b07f-58d1b1b0db20.png",
+    "genus": "Rubus",
+    "order": "Rosales",
+    "nutritions": {
+      "carbohydrates": 9,
+      "protein": 1.3,
+      "sugar": 4.5,
+      "calories": 40
+    }
+  },
+  {
+    "id": 14,
+    "fruit": "Cereja",
+    "image": "https://user-images.githubusercontent.com/101731656/183269153-d3c97936-cf70-4eeb-8f2d-d9937bd7e709.png",
+    "genus": "Prunus",
+    "order": "None",
+    "nutritions": {
+      "carbohydrates": 12,
+      "protein": 1,
+      "sugar": 8,
+      "calories": 50
+    }
+  },
+  {
+    "id": 15,
+    "fruit": "Mirtilo",
+    "image": "https://user-images.githubusercontent.com/101731656/183269177-09b19b08-ecdd-4cac-97a7-73c0cbcab908.png",
+    "genus": "Fragaria",
+    "order": "Rosales",
+    "nutritions": {
+      "carbohydrates": 5.5,
+      "protein": 0,
+      "sugar": 5.4,
+      "calories": 29
+    }
+  },
+  {
+    "id": 9,
+    "fruit": "Uva",
+    "image": "https://user-images.githubusercontent.com/101731656/183269221-9be9c910-6460-4339-8f50-1a83a5f38d6a.png",
+    "genus": "Vitis",
+    "order": "Vitales",
+    "nutritions": {
+      "carbohydrates": 18.1,
+      "protein": 0.72,
+      "sugar": 15.48,
+      "calories": 69
+    }
+  },
+  {
+    "id": 1,
+    "fruit": "Maçã verde",
+    "image": "https://user-images.githubusercontent.com/101731656/183269241-683d1917-6479-471e-b7ef-cf5cf9d9d64b.png",
+    "genus": "Malus",
+    "order": "Rosales",
+    "nutritions": {
+      "carbohydrates": 3.1,
+      "protein": 0.4,
+      "sugar": 6.4,
+      "calories": 21
+    }
+  },
+  {
+    "id": 3,
+    "fruit": "Goiaba",
+    "image": "https://user-images.githubusercontent.com/101731656/183269256-2a3e0b50-4549-40a1-a49a-5a5ce6486716.png",
+    "genus": "Psidium",
+    "order": "Myrtales",
+    "nutritions": {
+      "carbohydrates": 14,
+      "protein": 2.6,
+      "sugar": 9,
+      "calories": 68
+    }
+  },
+  {
+    "id": 2,
+    "fruit": "Limão",
+    "image": "https://user-images.githubusercontent.com/101731656/183269288-c7691897-e769-4373-836a-94ad80e9a0ea.png",
+    "genus": "Citrus",
+    "order": "Sapindales",
+    "nutritions": {
+      "carbohydrates": 9,
+      "protein": 1.1,
+      "sugar": 2.5,
+      "calories": 29
+    }
+  },
+  {
+    "id": 13,
+    "fruit": "Manga",
+    "image": "https://user-images.githubusercontent.com/101731656/183269327-d26ded3c-b2ea-41b5-b47d-262f051ad6fd.png",
+    "genus": "Mangifera",
+    "order": "Sapindales",
+    "nutritions": {
+      "carbohydrates": 15,
+      "protein": 0.82,
+      "sugar": 13.7,
+      "calories": 60
+    }
+  },
+  {
+    "id": 11,
+    "fruit": "Laranja",
+    "image": "https://user-images.githubusercontent.com/101731656/183269356-aa0c261f-93d4-4dee-885e-522db02b49ab.png",
+    "genus": "Citrus",
+    "order": "Sapindales",
+    "nutritions": {
+      "carbohydrates": 8.3,
+      "protein": 1,
+      "sugar": 8.2,
+      "calories": 43
+    }
+  },
+  {
+    "id": 5,
+    "fruit": "Pera",
+    "image": "https://user-images.githubusercontent.com/101731656/183269383-faf860e1-2c16-4636-9450-a1f5af42a79c.png",
+    "genus": "Pyrus",
+    "order": "Rosales",
+    "nutritions": {
+      "carbohydrates": 15,
+      "protein": 0.4,
+      "sugar": 10,
+      "calories": 57
+    }
+  },
+  {
+    "id": 6,
+    "fruit": "Ameixa",
+    "image": "https://user-images.githubusercontent.com/101731656/183269412-a85e18cd-9842-4cf5-adfb-e4000b2f7b46.png",
+    "genus": "Prunus",
+    "order": "Rosales",
+    "nutritions": {
+      "carbohydrates": 11.4,
+      "protein": 0.7,
+      "sugar": 9.92,
+      "calories": 46
+    }
+  }
+]
