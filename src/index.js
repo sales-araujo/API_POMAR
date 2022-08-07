@@ -5,21 +5,25 @@ const bodyParser = require('body-parser')
 
 const port = process.env.PORT || 21262
 
-const productsPomar = require('./public/API_PRODUCTS.json')
-const messageError = require('./public/ErrorMessage.json')
+const productsPomar = require('./API_PRODUCTS.json')
+const messageError = require('./ErrorMessage.json')
 
 const app = express()
-
-const path = require("path");
-const Router = require('./modules/router/router');
-const router = new Router(path.join(__dirname,'routes'));
 
 app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({extends: true}))
 app.use(express.json())
 app.use(cors())
 
-app.get('/api/fruit/all', (req, res) => {
+// const routers = productsPomar.map((route) => {
+//   console.log(route)
+//   route.id
+//   route.fruit
+//   route.genus
+//   route.order
+// })
+
+app.get("/api/fruit/all", (req, res) => {
   if(res.status(200)){
     res.json(productsPomar)
   } else if(res.status(404)){
