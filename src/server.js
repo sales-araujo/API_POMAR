@@ -11,7 +11,7 @@ const messageError = require('./public/ErrorMessage.json')
 const app = express()
 
 app.use(morgan('dev'))
-app.use(bodyParser.urlencoded({extends: false}))
+app.use(bodyParser.urlencoded({extends: true}))
 app.use(express.json())
 app.use(cors())
 
@@ -23,6 +23,6 @@ app.get('/api/fruit/all', (req, res) => {
   }
 })
 
-app.listen(21262, () => {
+app.listen(port, () => {
   console.log(`Express started at http://localhost:${port}`)
 })

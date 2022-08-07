@@ -2,9 +2,10 @@
   "name": "api_pomar",
   "version": "1.0.0",
   "description": "API_POMAR",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index"
+    "dev": "nodemon src/inde.js",
+    "start": "node src/index.js"
   },
   "author": "",
   "license": "ISC",
