@@ -4,6 +4,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 
 const productsPomar = require('./public/API_PRODUCTS.json')
+const messageError = require('./public/ErrorMessage.json')
 
 const app = express()
 
@@ -13,7 +14,11 @@ app.use(express.json())
 app.use(cors())
 
 app.get('/api/fruit/all', (req, res) => {
-  res.json(productsPomar)
+  if(res.status(200)){
+    res.json(productsPomar)
+  } else if(res.status(404)){
+    res.json(messageError)
+  }
 })
 
 app.listen(21262, () => {
