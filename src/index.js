@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000
 const productsPomar = require('./API_PRODUCTS.json')
 const messageError = require('./ErrorMessage.json')
 
-const { getFruitById } = require('./middleware/middleware')
+const { getFruitById, getFruitByName } = require('./middleware/middleware')
 
 const app = express()
 
@@ -23,8 +23,12 @@ app.get("/api/fruit/all", (req, res) => {
   return res.status(200).json(productsPomar)
 })
 
-app.get("/api/fruit/:id", getFruitById, (req, res) => {
+app.get("/api/fruit/:slug", getFruitById, getFruitByName, (req, res) => {
   const { fruitData } = req
+
+  if(!fruitData){
+    return res.status(400).json(messageError)
+  }
   
   return res.json(fruitData)
 })
